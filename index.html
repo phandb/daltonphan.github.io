@@ -6,11 +6,12 @@
 -->
 <html>
 	<head>
-		<title>Massively by HTML5 UP</title>
+		<title>My Portfolio</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 	</head>
 	<body class="is-preload">
 
@@ -26,15 +27,19 @@
 						</ul>
 					</div>
 
-				<!-- Header -->
+				<!-- Header 
 					<header id="header">
 						<a href="index.html" class="logo">Massively</a>
 					</header>
-
+				-->
 				<!-- Nav -->
 					<nav id="nav">
 						<ul class="links">
-							<li class="active"><a href="index.html">This is Massively</a></li>
+							<li class="active"><a href="#aboutMe">About Me</a></li>
+							<li ><a href="#projects">Projects</a></li>
+							<li ><a href="#footer">Contact</a></li>
+
+
 							
 						</ul>
 						<ul class="icons">
@@ -48,7 +53,7 @@
 					<div id="main">
 
 						<!-- Featured Post -->
-							<article class="post featured">
+							<article class="post featured" id="aboutMe">
 								<header class="major">
 									
 									<h2><a href="#">My Name is Dalton Phan</a></h2>
@@ -62,7 +67,7 @@
 							</article>
 
 						<!-- Posts -->
-							<section >
+							<section class="posts" id="projects">
 								<article class="post featured">
 									<header class="major">
 										
@@ -90,6 +95,48 @@
 								
 								
 							</section>
+
+							<div class="row row-cols-1 row-cols-md-3 g-4">
+								<div class="col">
+								  <div class="card h-100 border-success">
+									<img src="..." class="card-img-top" alt="...">
+									<div class="card-body">
+									  <h5 class="card-title">Card title</h5>
+									  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+									</div>
+									<div class="card-footer">
+										<a href="#" class="btn btn-outine-success">GitHub</a>
+										<a href="#" class="btn btn-outine-success btn-sm disabled">Live Demo</a>
+									</div>
+								  </div>
+								</div>
+								<div class="col">
+								  <div class="card h-100 border-danger">
+									<img src="..." class="card-img-top" alt="...">
+									<div class="card-body">
+									  <h5 class="card-title">Card title</h5>
+									  <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+									</div>
+									<div class="card-footer">
+										<a href="#" class="btn btn-outine-danger">GitHub</a>
+										<a href="#" class="btn btn-outine-danger btn-sm ">Live Demo</a>
+									</div>
+								  </div>
+								</div>
+								<div class="col">
+								  <div class="card h-100 border-info">
+									<img src="..." class="card-img-top" alt="...">
+									<div class="card-body">
+									  <h5 class="card-title">Card title</h5>
+									  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+									</div>
+									<div class="card-footer">
+										<a href="#" class="btn btn-outine-info">GitHub</a>
+										<a href="#" class="btn btn-outine-info btn-sm disabled">Live Demo</a>
+									</div>
+								  </div>
+								</div>
+							  </div>
 
 						<!-- Footer -->
 							<footer>
@@ -141,6 +188,7 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+			<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
 	</body>
 </html>
